@@ -1,0 +1,28 @@
+{
+  "homePage": {
+    "ourPartners": "Our partners."
+  },
+
+  "whoWeWorkWith": {
+    "prescribers": "Prescribers",
+    "payors": "Payors",
+    "providers": "Providers",
+    "patients": "Patients",
+    "patientServiceGuide": "/111947_Synapse-Patient-Services-Guide_R9.pdf"
+  },
+
+  "aboutUs": {
+    "exploreValuesPageTitle": "Our mission, vision and values.",
+    "meetOurLeadersTitle": "Meet our leaders."
+  },
+
+  "ourSolutions": {
+    "prescribers": "Prescribers",
+    "payors": "Payors",
+    "providers": "Providers",
+    "patients": "Patients",
+    "patientServiceGuide": "/111947_Synapse-Patient-Services-Guide_R9.pdf",
+    "synapseConnectUsLogo": "Synapse Connect",
+    "synapseConnectTitle": "Who typically uses the Connect solution?"
+  }
+}

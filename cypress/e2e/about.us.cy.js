@@ -1,5 +1,6 @@
 import AboutUsPage from "../page_objects/about.us.page"
 import HomePage from "../page_objects/home.page";
+//verification variable
 
 let verificationText;
 
@@ -24,3 +25,4 @@ describe('User is able to access menu item', () => {
     AboutUsPage.meetOurLeadersTitle.should('be.visible', verificationText.aboutUs.meetOurLeadersTitle)
   })
 })
+

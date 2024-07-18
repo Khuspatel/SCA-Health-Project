@@ -16,8 +16,25 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4.1.1
-      - name: Cypress run
-        uses: cypress-io/github-action@v6.6.1
-        with:
-          browser: chrome
-          working-directory: /
+      - name: Set up Node.js 
+      uses: actions/setup-node@v3
+      with:
+      node-version: '14' 
+      - name: Install dependencies
+      run: npm install 
+      working-directory: ./ 
+      - name: Start application 
+      run: npm start 
+      working-directory: ./ 
+      background: true 
+      - name: Wait on the application to be ready
+      run: npx wait-on http://localhost:3000 
+      - name: Cypress run 
+      uses: cypress-io/github-action@v6.6.1
+      with:
+      browser: chrome
+      working-directory: ./
+
+
+
+
